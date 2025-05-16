@@ -19,5 +19,6 @@ Cluster 1: 70% reliance on local statistics, 30% on global statistics; Cluster 2
 
 # Hybrid Batch Normalisation
 <img src="./HBN.png" alt="HybridBN" width="650">
+The specific code implementation can be found in <a href="./FedBaseline/models/FedHBN/MyBNtool" target="_blank" title="HBN">./FedBaseline/models/FedHBN/MyBNtool</a>.
 
 # Citation
