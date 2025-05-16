@@ -23,7 +23,7 @@ def args_parser():
 
     # A suitable learning rate is crucial for different normalization methods with different local_batch
     # You can try several rounds first to explore the appropriate initial learning rate
-    parser.add_argument('--lr', type=float, default=0.005,
+    parser.add_argument('--lr', type=float, default=0.01,
                         help="learning rate n, a suitable learning rate is crucial for different normalization methods")
     parser.add_argument('--local_batch', type=int, default=4, help="local batch size: B")
 
