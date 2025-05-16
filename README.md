@@ -1,5 +1,5 @@
 # Introduction
-This is the implementation of our paper: Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning (accepted by ICML 2025).
+This is the implementation of our paper: Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning (accepted by ICML 2025 poster).
 <img src="./adaptive_normalisation.png" alt="adaptive_normalisation">
 **(a) Original Clusters**:
 Cluster 1 (blue squares): 300 samples centered at [5, 5] with a tight standard deviation of  0.4; 
