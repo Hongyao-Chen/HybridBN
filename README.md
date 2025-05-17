@@ -35,8 +35,8 @@ The specific code implementation can be found in <a href="./FedBaseline/models/F
 │   ├── options/
 │   │   └── options.py       experimental parameter settings.
 │   └── sampling/
-│   │   ├── dataloader.py    load data.
-│   │   └── sampling.py      divide the data to the clients.
+│       ├── dataloader.py    load data.
+│       └── sampling.py      divide the data to the clients.
 └── XXX_main.py              core driver program for specific algorithms.
 ```
 FedAvg:[Communication-Efficient Learning of Deep Networks from Decentralized Data](http://proceedings.mlr.press/v54/mcmahan17a.html) *AISTATS 2017*
