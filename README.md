@@ -48,6 +48,23 @@ FedFN: [FedFN: Feature Normalization for Alleviating Data Heterogeneity Problem 
 FixBN: [Making Batch Normalization Great in Federated Deep Learning](https://openreview.net/forum?id=iKQC652XIk) *FL@FM-NeurIPS’23*
 
 # Runing
+*Cifar10 with B=4, β=0.6 by Simple-CNN*
+```python
+# FedAvg+HBN
+python FedHBN_main.py --model 'cnn-hbn' --lr 0.01 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+# FedAvg+BN
+python FedAvg_main.py --model 'cnn-bn' --lr 0.01 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+# FedAvg+GN
+python FedAvg_main.py --model 'cnn-gn' --lr 0.005 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+# FedAvg+LN
+python FedAvg_main.py --model 'cnn-ln' --lr 0.005 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+# FedAvg+FedFN
+python FedFN_main.py --model 'cnn-fn' --lr 0.005 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+# FedAvg+FixBN
+python FixBN_main.py --model 'cnn-bn' --lr 0.002 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+# FedAvg+FBN
+python FBN_main.py --model 'cnn-fbn' --lr 0.01 --local_batch 4 --dataset 'cifar10' --num_classes 10 --iid False --dirichlet_alpha 0.6
+```
 **Note**: Do not run all methods with the same initial learning rate, as different normalisation methods may have different optimal learning rates. Some tuning experience can be found in the appendix of the paper. 
 
 # Citation
