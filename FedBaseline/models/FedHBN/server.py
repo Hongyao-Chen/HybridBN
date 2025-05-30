@@ -6,7 +6,7 @@ from torch import Tensor
 
 class Sever(object):
     w_glob = []
-    loss_train = []  # 训练损失
+    loss_train = []
 
     def __init__(self, args, w_glob):
         self.args = args
