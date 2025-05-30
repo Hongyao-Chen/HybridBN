@@ -1,5 +1,7 @@
 # Introduction
-This is the implementation of our paper: [<b>Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning</b>](https://arxiv.org/abs/2505.21877) (accepted by ICML 2025 poster).
+This is the implementation of our paper (accepted by ICML 2025 poster): 
+
+[<b>Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning</b>](https://arxiv.org/abs/2505.21877) 
 
 <img src="./adaptive_normalisation.png" alt="adaptive_normalisation">
 
