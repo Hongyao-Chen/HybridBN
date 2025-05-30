@@ -1,5 +1,5 @@
 # Introduction
-This is the implementation of our paper: Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning (accepted by ICML 2025 poster).
+This is the implementation of our paper:  <b>Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning</b> (accepted by ICML 2025 poster).
 <img src="./adaptive_normalisation.png" alt="adaptive_normalisation">
 **(a) Original Clusters**:
 Cluster 1 (blue squares): 300 samples centered at [5, 5] with a tight standard deviation of  0.4; 
@@ -68,4 +68,14 @@ python FBN_main.py --model 'cnn-fbn' --lr 0.01 --local_batch 4 --dataset 'cifar1
 **Note**: Do not run all methods with the same initial learning rate, as different normalisation methods may have different optimal learning rates. Some tuning experience can be found in the appendix of the paper. 
 
 # Citation
-
+```
+@misc{chen2025hybridbatchnormalisationresolving,
+      title={Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning}, 
+      author={Hongyao Chen and Tianyang Xu and Xiaojun Wu and Josef Kittler},
+      year={2025},
+      eprint={2505.21877},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.21877}, 
+}
+```
