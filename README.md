@@ -73,13 +73,12 @@ python FBN_main.py --model 'cnn-fbn' --lr 0.01 --local_batch 4 --dataset 'cifar1
 
 # Citation
 ```
-@misc{chen2025hybridbatchnormalisationresolving,
-      title={Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning}, 
-      author={Hongyao Chen and Tianyang Xu and Xiaojun Wu and Josef Kittler},
-      year={2025},
-      eprint={2505.21877},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.21877}, 
+@inproceedings{
+chen2025hybrid,
+title={Hybrid Batch Normalisation: Resolving the Dilemma of Batch Normalisation in Federated Learning},
+author={Hongyao Chen and Tianyang Xu and Xiaojun Wu and Josef Kittler},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=zV5pkTMHPP}
 }
 ```
